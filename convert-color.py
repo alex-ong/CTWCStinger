@@ -48,9 +48,9 @@ for i in range(10):
 
 init_palette()    
 
-for color in range(9,10):
+for color in range(1, 10):
     for i in range (1, 92):
         name = ("%05d" %i) + ".png"
         foldername = str(color)
-        parse(name, palette[0], palette[color], foldername+"/"+name )
+        parse("0/"+name, palette[0], palette[color], foldername+"/"+name )
     
